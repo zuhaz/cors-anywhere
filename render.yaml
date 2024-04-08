@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: webdis
+    name: webdis-cors
     env: docker
     repo: https://github.com/zuhaz/cors-anywhere.git
     plan: free
